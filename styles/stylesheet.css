@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+div {
+  width: 300px;
+  border: 15px solid navy;
+  padding: 50px;
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightslategray;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+a:link,
+a:visited {
+  color: navy;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: red;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Eczar", serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+p {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+figcaption {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: small;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+body {
+  background-color: rgb(182, 192, 222);
+  color: black;
+  width: 100%;
+}
+
+img {
+  max-width: 500px;
+  max-height: 800px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+thead {
+  background-color: lightgray;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#table-label {
+  font-family: "Libre Franklin", sans-serif;
+}
